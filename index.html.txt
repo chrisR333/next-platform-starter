@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Rodas | Nutricionista & Coach</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('https://i.ibb.co/tB8W6k6/Christian-Rodas.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      flex-direction: column;
+      text-align: center;
+      padding: 0 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.5rem;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+    .plan-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .plan-table th, .plan-table td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    .contact-btns a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 20px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .contact-btns a:hover {
+      background: #218838;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Christian Rodas</h1>
+    <p>Nutricionista deportivo, psicólogo del deporte y coach personalizado</p>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Soy Christian Rodas, atleta de alto rendimiento, nutricionista deportivo y preparador físico comprometido con transformar no solo cuerpos, sino también mentes. Mi enfoque va más allá del físico: trabajamos juntos en cambiar tu mentalidad y forma de actuar para que logres un cambio duradero en tu vida.</p>
+  </section>
+
+  <section>
+    <h2>Mis planes</h2>
+    <table class="plan-table">
+      <tr>
+        <th>Plan</th>
+        <th>Descripción</th>
+        <th>Precio (COP)</th>
+      </tr>
+      <tr>
+        <td>Entrenamiento individual</td>
+        <td>Rutina adaptada a tus objetivos con seguimiento</td>
+        <td>$60.000</td>
+      </tr>
+      <tr>
+        <td>Entrenamiento por día</td>
+        <td>Rutinas por días con planificación específica</td>
+        <td>$25.000</td>
+      </tr>
+      <tr>
+        <td>Entrenamiento personalizado mensual</td>
+        <td>Seguimiento completo y ajustes semanales</td>
+        <td>$100.000</td>
+      </tr>
+      <tr>
+        <td>Recomposición corporal</td>
+        <td>Guía para perder grasa y aumentar masa muscular</td>
+        <td>$120.000</td>
+      </tr>
+      <tr>
+        <td>Nutrición + Entrenamiento</td>
+        <td>Plan alimenticio + rutina personalizada</td>
+        <td>$140.000</td>
+      </tr>
+      <tr>
+        <td>Nutrición + Entrenamiento + Recomposición</td>
+        <td>Paquete integral con seguimiento mensual</td>
+        <td>$160.000</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>¿Listo para transformar tu vida? Escríbeme ahora:</p>
+    <div class="contact-btns">
+      <a href="mailto:rodasfitcoach@gmail.com">📧 Correo</a>
+      <a href="https://www.instagram.com/chrisrodasj" target="_blank">📸 Instagram</a>
+      <a href="https://wa.me/573136604766" target="_blank">💬 WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Christian Rodas. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
